@@ -1,4 +1,4 @@
-Make a for item in iterable loop
-list = [1, 3, 5, 7, 9]
-for i in list:
+list1 = [1, 5, 9, 5, 6, 2, 4, 4]
+print(list1)
+for i in list1:
     print(i)

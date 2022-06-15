@@ -1,0 +1,9 @@
+character1 = {
+  "strength": 16,
+  "dexterity": 12,
+  "constitution": 13，
+  "intelligence": 17，
+  "wisdom": 19，
+  "charisma": 10，
+}
+print(character1)

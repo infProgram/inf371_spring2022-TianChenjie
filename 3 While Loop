@@ -1,0 +1,8 @@
+Make a while loop
+>>> a = raw_input("input:")
+
+input:runoob
+
+>>> type(a)
+while a = q:
+    sys.exit(0)

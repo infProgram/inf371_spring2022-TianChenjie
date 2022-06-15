@@ -1,9 +1,25 @@
-character1 = {
-  "strength": 16,
-  "dexterity": 12,
-  "constitution": 13，
-  "intelligence": 17，
-  "wisdom": 19，
-  "charisma": 10，
+thisdic={
+    "strength":12,
+    "dexterity":12,
+    "constitution":14,
+    "intelligence":15,
+    "wisdom":20,
+    "charisma":15
 }
-print(character1)
+print(thisdic)
+b=0
+j=0
+for a in thisdic.keys():
+    if a=="strength":
+        b+=1
+if b!=0:
+    print (thisdic["strength"])
+else:
+    print("strength isn't a character stat")
+for i in thisdic.keys():
+    if i=="speed":
+        j+=1
+if j!=0:
+    print (thisdic["speed"])
+else:
+    print("speed isn't a character stat")
